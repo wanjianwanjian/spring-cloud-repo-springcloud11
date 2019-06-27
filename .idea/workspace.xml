@@ -1,0 +1,1085 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="89b06571-1a13-454a-befd-609627c9bf13" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp01-commons/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp01-commons/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp01-commons/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp01-commons/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp01-commons/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp01-commons/src/main/java/com/tedu/sp01/pojo/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp01-commons/src/main/java/com/tedu/sp01/pojo/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp01-commons/src/main/java/com/tedu/sp01/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp01-commons/src/main/java/com/tedu/sp01/service/ItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp01-commons/src/main/java/com/tedu/sp01/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp01-commons/src/main/java/com/tedu/sp01/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp01-commons/src/main/java/com/tedu/web/util/CookieUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp01-commons/src/main/java/com/tedu/web/util/JsonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp01-commons/src/main/java/com/tedu/web/util/JsonUtil.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/sp01-commons/target/" />
+    <ignored path="$PROJECT_DIR$/sp02-itemservice/target/" />
+    <ignored path="$PROJECT_DIR$/sp03-userservice/target/" />
+    <ignored path="$PROJECT_DIR$/sp04-orderservice/target/" />
+    <ignored path="$PROJECT_DIR$/sp05-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/sp06-ribbon/target/" />
+    <ignored path="$PROJECT_DIR$/sp07-hystrix/target/" />
+    <ignored path="$PROJECT_DIR$/sp08-dashboard/target/" />
+    <ignored path="$PROJECT_DIR$/sp09-feign/target/" />
+    <ignored path="$PROJECT_DIR$/turbine/target/" />
+    <ignored path="$PROJECT_DIR$/sp11-zuul/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sp11-zuul/src/main/java/com/tedu/sp11zuul/ItemServiceFallback.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+              <folding>
+                <element signature="method#getRoute#0;class#ItemServiceFallback#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+                <element signature="e#598#599#0" expanded="true" />
+                <element signature="method#response#0;class#ItemServiceFallback#0" expanded="true" />
+                <element signature="method#getRawStatusCode#0;class#655:1462" expanded="true" />
+                <element signature="method#getStatusText#0;class#655:1462" expanded="true" />
+                <element signature="method#close#0;class#655:1462" expanded="true" />
+                <element signature="method#getBody#0;class#655:1462" expanded="true" />
+                <element signature="method#getHeaders#0;class#655:1462" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/io/InputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sp09-feign/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="73">
+              <caret line="37" selection-start-line="37" selection-end-line="41" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sp11-zuul/src/main/java/com/tedu/sp11zuul/OrderServiceFallback.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1209">
+              <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#208#209#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+                <element signature="method#getRawStatusCode#0;class#422:1212" expanded="true" />
+                <element signature="method#getStatusText#0;class#422:1212" expanded="true" />
+                <element signature="method#close#0;class#422:1212" expanded="true" />
+                <element signature="method#getBody#0;class#422:1212" expanded="true" />
+                <element signature="method#getHeaders#0;class#422:1212" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sp10-turbine/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sp11-zuul/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sp11-zuul/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sp02-itemservice/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sp02-itemservice/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-225" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sp11-zuul/src/main/java/com/tedu/sp11zuul/filter/AccessFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#shouldFilter#0;class#AccessFilter#0" expanded="true" />
+                <element signature="method#run#0;class#AccessFilter#0" expanded="true" />
+                <element signature="e#991#992#0" expanded="true" />
+                <element signature="e#1029#1030#0" expanded="true" />
+                <element signature="method#filterOrder#0;class#AccessFilter#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="b89e9b55-de88-44e3-ade7-3a1c05186d58" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/sp07-hystrix/src/main/java/com/tedu/sp06/Sp06RibbonApplication.java" />
+        <option value="$PROJECT_DIR$/sp06-ribbon/src/main/java/com/tedu/sp06/consoller/RibbonController.java" />
+        <option value="$PROJECT_DIR$/sp07-hystrix/src/main/java/com/tedu/sp06/consoller/RibbonController.java" />
+        <option value="$PROJECT_DIR$/sp06-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/sp08-dashboard/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sp07-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/sp02-itemservice/pom.xml" />
+        <option value="$PROJECT_DIR$/sp07-hystrix/src/main/java/com/tedu/sp07hystrix/Sp07HystrixApplication.java" />
+        <option value="$PROJECT_DIR$/sp07-hystrix/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sp09-feign/src/main/java/com/tedu/sp09feign/service/UserFeignService.java" />
+        <option value="$PROJECT_DIR$/sp09-feign/src/main/java/com/tedu/sp09feign/service/OrderFeignService.java" />
+        <option value="$PROJECT_DIR$/sp09-feign/src/main/java/com/tedu/sp09feign/service/ItemFeignService.java" />
+        <option value="$PROJECT_DIR$/sp09-feign/src/main/java/com/tedu/sp09feign/service/ItemFeignServiceFB.java" />
+        <option value="$PROJECT_DIR$/sp09-feign/src/main/java/com/tedu/sp09feign/service/OrderFeignServiceFB.java" />
+        <option value="$PROJECT_DIR$/sp09-feign/src/main/java/com/tedu/sp09feign/service/UserFeignServiceFB.java" />
+        <option value="$PROJECT_DIR$/sp09-feign/src/main/java/com/tedu/sp09feign/feigncontroller/FeignController.java" />
+        <option value="$PROJECT_DIR$/sp03-userservice/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sp03-userservice/src/main/java/com/tedu/sp03/user/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/sp03-userservice/src/main/java/com/tedu/sp03/Sp03UserserviceApplication.java" />
+        <option value="$PROJECT_DIR$/sp08-dashboard/src/main/java/com/tedu/sp08dashboard/Sp08DashboardApplication.java" />
+        <option value="$PROJECT_DIR$/sp08-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/sp09-feign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sp09-feign/src/main/java/com/tedu/sp09feign/Sp09FeignApplication.java" />
+        <option value="$PROJECT_DIR$/sp04-orderservice/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sp04-orderservice/src/main/java/com/tedu/sp04/Sp04OrderserviceApplication.java" />
+        <option value="$PROJECT_DIR$/sp04-orderservice/src/main/java/com/tedu/sp04/order/service/ItemFeignService.java" />
+        <option value="$PROJECT_DIR$/sp04-orderservice/src/main/java/com/tedu/sp04/order/service/ItemFeignServiceFB.java" />
+        <option value="$PROJECT_DIR$/sp04-orderservice/src/main/java/com/tedu/sp04/order/feignclient/UserFeignService.java" />
+        <option value="$PROJECT_DIR$/sp04-orderservice/src/main/java/com/tedu/sp04/order/feignclient/ItemFeignServiceFB.java" />
+        <option value="$PROJECT_DIR$/sp04-orderservice/src/main/java/com/tedu/sp04/order/feignclient/UserFeignServiceFB.java" />
+        <option value="$PROJECT_DIR$/sp04-orderservice/src/main/java/com/tedu/sp04/order/service/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/sp09-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/sp04-orderservice/pom.xml" />
+        <option value="$PROJECT_DIR$/turbine/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/turbine/src/main/java/com/tedu/turbine/TurbineApplication.java" />
+        <option value="$PROJECT_DIR$/sp11-zuul/src/main/java/com/tedu/sp11zuul/Sp11ZuulApplication.java" />
+        <option value="$PROJECT_DIR$/sp11-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/sp11-zuul/src/main/java/com/tedu/sp11zuul/ItemServiceFallback.java" />
+        <option value="$PROJECT_DIR$/sp11-zuul/src/main/java/com/tedu/sp11zuul/OrderServiceFallback.java" />
+        <option value="$PROJECT_DIR$/sp10-turbine/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sp11-zuul/src/main/java/com/tedu/sp11zuul/filter/AccessFilter.java" />
+        <option value="$PROJECT_DIR$/sp11-zuul/src/main/resources/application.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="kvISfaaq" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="mavenHome" value="$USER_HOME$/Documents/JAVA/HTML/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="C:\Users\79155\Documents\JAVA\HTML\apache-maven-3.5.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="9" />
+    <option name="width" value="1887" />
+    <option name="height" value="1020" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../git" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.tedu.sp07hystrix" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\79155\IdeaProjects\spring-cloud-repo-springcloud11\sp07-hystrix" />
+      <recent name="C:\Users\79155\IdeaProjects\spring-cloud-repo-springcloud11" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.tedu.sp04.order.feignclient" />
+      <recent name="com.tedu.sp04.order.service" />
+      <recent name="com.tedu.sp09feign.service" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.35961872" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.Sp11ZuulApplication">
+    <configuration name="Sp02-itemservice1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sp02-itemservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tedu.sp02.Sp02ItemserviceApplication" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=item1" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sp03UserserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sp03-userservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tedu.sp03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tedu.sp03.Sp03UserserviceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sp04-orderservice1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="sp04-orderservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tedu.sp04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tedu.sp04.Sp04OrderserviceApplication" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=order1" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sp05-eureka1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sp05-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tedu.sp05.Sp05EurekaApplication" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=eureka1" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sp05-eureka2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sp05-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tedu.sp05.Sp05EurekaApplication" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=eureka2" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sp06RibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sp06-ribbon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tedu.sp07hystrix.sp06.Sp06RibbonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sp07HystrixApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sp07-hystrix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tedu.sp07hystrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tedu.sp07hystrix.Sp07HystrixApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sp08DashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sp08-dashboard" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tedu.sp08dashboard.Sp08DashboardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sp09FeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sp09-feign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tedu.sp09feign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tedu.sp09feign.Sp09FeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sp11ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sp11-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tedu.sp11zuul.Sp11ZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TurbineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sp10-turbine" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tedu.turbine.TurbineApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sp02-itemservice2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sp02-itemservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tedu.sp02.Sp02ItemserviceApplication" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=item2" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sp04-orderservice2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sp04-orderservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tedu.sp04.Sp04OrderserviceApplication" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=order2" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Sp02-itemservice1" />
+      <item itemvalue="Spring Boot.sp02-itemservice2" />
+      <item itemvalue="Spring Boot.Sp05-eureka2" />
+      <item itemvalue="Spring Boot.Sp06RibbonApplication" />
+      <item itemvalue="Spring Boot.Sp05-eureka1" />
+      <item itemvalue="Spring Boot.Sp08DashboardApplication" />
+      <item itemvalue="Spring Boot.sp04-orderservice2" />
+      <item itemvalue="Spring Boot.Sp07HystrixApplication" />
+      <item itemvalue="Spring Boot.Sp04-orderservice1" />
+      <item itemvalue="Spring Boot.Sp03UserserviceApplication" />
+      <item itemvalue="Spring Boot.Sp09FeignApplication" />
+      <item itemvalue="Spring Boot.TurbineApplication" />
+      <item itemvalue="Spring Boot.Sp11ZuulApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Sp04-orderservice1" />
+        <item itemvalue="Spring Boot.Sp09FeignApplication" />
+        <item itemvalue="Spring Boot.Sp03UserserviceApplication" />
+        <item itemvalue="Spring Boot.Sp07HystrixApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89b06571-1a13-454a-befd-609627c9bf13" name="Default Changelist" comment="" />
+      <created>1561547285029</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561547285029</updated>
+      <workItem from="1561547286928" duration="896000" />
+      <workItem from="1561552787578" duration="11905000" />
+      <workItem from="1561588369203" duration="2505000" />
+      <workItem from="1561590949212" duration="23778000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="39084000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34311327" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Learn" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.29421353" side_tool="true" weight="0.33471075" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.70578647" weight="0.6942149" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.336887" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.43765283" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Cargo" order="5" />
+      <window_info anchor="right" id="Snyk" order="6" side_tool="true" />
+      <window_info anchor="right" id="Key Promoter X" order="7" />
+      <window_info anchor="right" id="Flutter Inspector" order="8" />
+      <window_info anchor="right" id="Flutter Outline" order="9" />
+      <window_info anchor="right" id="Capture Analysis" order="10" />
+      <window_info anchor="right" id="Database" order="11" />
+      <window_info anchor="right" id="Palette&#9;" order="12" />
+      <window_info anchor="right" id="Theme Preview" order="13" />
+      <window_info anchor="right" id="Bean Validation" order="14" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sp09-feign/src/main/java/com/tedu/sp09feign/service/UserFeignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp09-feign/src/main/java/com/tedu/sp09feign/service/UserFeignServiceFB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp09-feign/src/main/java/com/tedu/sp09feign/service/OrderFeignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp09-feign/src/main/java/com/tedu/sp09feign/service/OrderFeignServiceFB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp09-feign/src/main/java/com/tedu/sp09feign/service/ItemFeignServiceFB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.1.1.RELEASE/spring-cloud-openfeign-core-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/openfeign/EnableFeignClients.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp03-userservice/src/main/java/com/tedu/sp03/user/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp02-itemservice/src/main/java/com/tedu/sp02/Sp02ItemserviceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.1.RELEASE/spring-cloud-commons-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/client/discovery/EnableDiscoveryClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp06-ribbon/src/main/java/com/tedu/sp07hystrix/sp06/Sp06RibbonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp05-eureka/src/main/java/com/tedu/sp05/Sp05EurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp03-userservice/src/main/java/com/tedu/sp03/user/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-65">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp07-hystrix/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp07-hystrix/src/main/java/com/tedu/sp07hystrix/Sp07HystrixApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding>
+            <element signature="method#getRestTemplate#0;class#Sp07HystrixApplication#0" expanded="true" />
+            <element signature="method#main#0;class#Sp07HystrixApplication#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-hystrix-dashboard/2.1.1.RELEASE/spring-cloud-netflix-hystrix-dashboard-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/hystrix/dashboard/EnableHystrixDashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp03-userservice/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp03-userservice/src/main/java/com/tedu/sp03/Sp03UserserviceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp05-eureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp09-feign/src/main/java/com/tedu/sp09feign/service/ItemFeignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp08-dashboard/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp08-dashboard/src/main/java/com/tedu/sp08dashboard/Sp08DashboardApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-hystrix/2.1.1.RELEASE/spring-cloud-netflix-hystrix-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/hystrix/EnableHystrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="42" column="33" lean-forward="true" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp09-feign/src/main/java/com/tedu/sp09feign/Sp09FeignApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp04-orderservice/src/main/java/com/tedu/sp04/order/feignclient/ItemFeignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp09-feign/src/main/java/com/tedu/sp09feign/feigncontroller/FeignController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp04-orderservice/src/main/java/com/tedu/sp04/order/feignclient/UserFeignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp01-commons/src/main/java/com/tedu/sp01/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp04-orderservice/src/main/java/com/tedu/sp04/order/feignclient/UserFeignServiceFB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getUser#0;class#UserFeignServiceFB#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp04-orderservice/src/main/java/com/tedu/sp04/order/feignclient/ItemFeignServiceFB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getItems#0;class#ItemFeignServiceFB#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp04-orderservice/src/main/java/com/tedu/sp04/order/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="24" column="68" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
+          <folding>
+            <element signature="method#getOrder#0;class#OrderController#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp09-feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-430">
+          <caret line="51" column="60" selection-start-line="51" selection-start-column="60" selection-end-line="51" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp04-orderservice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="38" column="66" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp04-orderservice/src/main/java/com/tedu/sp04/Sp04OrderserviceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <folding>
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp04-orderservice/src/main/java/com/tedu/sp04/order/service/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <folding>
+            <element signature="method#addOrder#0;class#OrderServiceImpl#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp10-turbine/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp10-turbine/src/main/java/com/tedu/turbine/TurbineApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="method#main#0;class#TurbineApplication#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp11-zuul/src/main/java/com/tedu/sp11zuul/Sp11ZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp04-orderservice/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp02-itemservice/src/main/java/com/tedu/sp02/item/service/ItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+          <folding>
+            <element signature="method#getItems#0;class#ItemServiceImpl#0" expanded="true" />
+            <element signature="method#decreaseNumbers#0;class#ItemServiceImpl#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp02-itemservice/src/main/java/com/tedu/sp02/item/controller/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="29" column="90" lean-forward="true" selection-start-line="29" selection-start-column="90" selection-end-line="29" selection-end-column="90" />
+          <folding>
+            <element signature="method#getItems#0;class#ItemController#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp02-itemservice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp11-zuul/src/main/java/com/tedu/sp11zuul/OrderServiceFallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1209">
+          <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="method#getRawStatusCode#0;class#422:1212" expanded="true" />
+            <element signature="method#getStatusText#0;class#422:1212" expanded="true" />
+            <element signature="method#close#0;class#422:1212" expanded="true" />
+            <element signature="method#getBody#0;class#422:1212" expanded="true" />
+            <element signature="method#getHeaders#0;class#422:1212" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-zuul/2.1.1.RELEASE/spring-cloud-starter-netflix-zuul-2.1.1.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-600" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp11-zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp09-feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="37" selection-start-line="37" selection-end-line="41" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp10-turbine/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp02-itemservice/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp11-zuul/src/main/java/com/tedu/sp11zuul/filter/AccessFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#shouldFilter#0;class#AccessFilter#0" expanded="true" />
+            <element signature="method#run#0;class#AccessFilter#0" expanded="true" />
+            <element signature="e#991#992#0" expanded="true" />
+            <element signature="e#1029#1030#0" expanded="true" />
+            <element signature="method#filterOrder#0;class#AccessFilter#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp11-zuul/src/main/java/com/tedu/sp11zuul/ItemServiceFallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="method#getRoute#0;class#ItemServiceFallback#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="method#response#0;class#ItemServiceFallback#0" expanded="true" />
+            <element signature="method#getRawStatusCode#0;class#655:1462" expanded="true" />
+            <element signature="method#getStatusText#0;class#655:1462" expanded="true" />
+            <element signature="method#close#0;class#655:1462" expanded="true" />
+            <element signature="method#getBody#0;class#655:1462" expanded="true" />
+            <element signature="method#getHeaders#0;class#655:1462" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/io/InputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp11-zuul/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>sp09-feign</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
