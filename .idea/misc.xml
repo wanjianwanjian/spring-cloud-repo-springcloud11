@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/sp09-feign/pom.xml" />
         <option value="$PROJECT_DIR$/turbine/pom.xml" />
         <option value="$PROJECT_DIR$/sp11-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/configcenter/pom.xml" />
       </list>
     </option>
   </component>

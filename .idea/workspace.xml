@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89b06571-1a13-454a-befd-609627c9bf13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsonSchemas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_1_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_54.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jzlib_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_5_1_3_201810200350_r.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_http_apache_5_1_3_201810200350_r.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_1_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp01-commons/src/main/java/com/tedu/sp01/pojo/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/sp01-commons/src/main/java/com/tedu/sp01/pojo/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp02-itemservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sp02-itemservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp03-userservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sp03-userservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp03-userservice/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sp03-userservice/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp04-orderservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sp04-orderservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp11-zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sp11-zuul/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/sp01-commons/target/" />
     <ignored path="$PROJECT_DIR$/sp02-itemservice/target/" />
@@ -15,6 +34,7 @@
     <ignored path="$PROJECT_DIR$/sp09-feign/target/" />
     <ignored path="$PROJECT_DIR$/turbine/target/" />
     <ignored path="$PROJECT_DIR$/sp11-zuul/target/" />
+    <ignored path="$PROJECT_DIR$/configcenter/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,69 +47,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sp11-zuul/src/main/java/com/tedu/sp11zuul/ItemServiceFallback.java">
+        <entry file="file://$PROJECT_DIR$/configcenter/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-              <folding>
-                <element signature="method#getRoute#0;class#ItemServiceFallback#0" expanded="true" />
-                <element signature="e#574#575#0" expanded="true" />
-                <element signature="e#598#599#0" expanded="true" />
-                <element signature="method#response#0;class#ItemServiceFallback#0" expanded="true" />
-                <element signature="method#getRawStatusCode#0;class#655:1462" expanded="true" />
-                <element signature="method#getStatusText#0;class#655:1462" expanded="true" />
-                <element signature="method#close#0;class#655:1462" expanded="true" />
-                <element signature="method#getBody#0;class#655:1462" expanded="true" />
-                <element signature="method#getHeaders#0;class#655:1462" expanded="true" />
-              </folding>
+            <state relative-caret-position="4">
+              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/io/InputStream.java">
+        <entry file="file://$PROJECT_DIR$/sp02-itemservice/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+            <state relative-caret-position="300">
+              <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sp09-feign/src/main/resources/application.yml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sp03-userservice/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="37" selection-start-line="37" selection-end-line="41" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sp11-zuul/src/main/java/com/tedu/sp11zuul/OrderServiceFallback.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1209">
-              <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
-                <element signature="e#341#342#0" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-                <element signature="method#getRawStatusCode#0;class#422:1212" expanded="true" />
-                <element signature="method#getStatusText#0;class#422:1212" expanded="true" />
-                <element signature="method#close#0;class#422:1212" expanded="true" />
-                <element signature="method#getBody#0;class#422:1212" expanded="true" />
-                <element signature="method#getHeaders#0;class#422:1212" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sp10-turbine/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+            <state relative-caret-position="215">
+              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -97,17 +76,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sp11-zuul/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
+            <state relative-caret-position="248">
+              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sp11-zuul/src/main/resources/application.yml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sp03-userservice/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+            <state relative-caret-position="150">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sp04-orderservice/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sp11-zuul/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -115,32 +112,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sp02-itemservice/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+            <state relative-caret-position="173">
+              <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="49" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sp02-itemservice/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/sp03-userservice/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-225" />
+            <state relative-caret-position="190">
+              <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sp11-zuul/src/main/java/com/tedu/sp11zuul/filter/AccessFilter.java">
+        <entry file="file://$PROJECT_DIR$/sp04-orderservice/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#shouldFilter#0;class#AccessFilter#0" expanded="true" />
-                <element signature="method#run#0;class#AccessFilter#0" expanded="true" />
-                <element signature="e#991#992#0" expanded="true" />
-                <element signature="e#1029#1030#0" expanded="true" />
-                <element signature="method#filterOrder#0;class#AccessFilter#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="248">
+              <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -152,27 +143,40 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>6001</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="b89e9b55-de88-44e3-ade7-3a1c05186d58" />
   </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="wanjianwanjian" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="spring-cloud-repo-springcloud11" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sp07-hystrix/src/main/java/com/tedu/sp06/Sp06RibbonApplication.java" />
-        <option value="$PROJECT_DIR$/sp06-ribbon/src/main/java/com/tedu/sp06/consoller/RibbonController.java" />
         <option value="$PROJECT_DIR$/sp07-hystrix/src/main/java/com/tedu/sp06/consoller/RibbonController.java" />
         <option value="$PROJECT_DIR$/sp06-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/sp08-dashboard/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/sp07-hystrix/pom.xml" />
-        <option value="$PROJECT_DIR$/sp02-itemservice/pom.xml" />
         <option value="$PROJECT_DIR$/sp07-hystrix/src/main/java/com/tedu/sp07hystrix/Sp07HystrixApplication.java" />
         <option value="$PROJECT_DIR$/sp07-hystrix/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/sp09-feign/src/main/java/com/tedu/sp09feign/service/UserFeignService.java" />
@@ -182,7 +186,6 @@
         <option value="$PROJECT_DIR$/sp09-feign/src/main/java/com/tedu/sp09feign/service/OrderFeignServiceFB.java" />
         <option value="$PROJECT_DIR$/sp09-feign/src/main/java/com/tedu/sp09feign/service/UserFeignServiceFB.java" />
         <option value="$PROJECT_DIR$/sp09-feign/src/main/java/com/tedu/sp09feign/feigncontroller/FeignController.java" />
-        <option value="$PROJECT_DIR$/sp03-userservice/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/sp03-userservice/src/main/java/com/tedu/sp03/user/service/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/sp03-userservice/src/main/java/com/tedu/sp03/Sp03UserserviceApplication.java" />
         <option value="$PROJECT_DIR$/sp08-dashboard/src/main/java/com/tedu/sp08dashboard/Sp08DashboardApplication.java" />
@@ -198,17 +201,29 @@
         <option value="$PROJECT_DIR$/sp04-orderservice/src/main/java/com/tedu/sp04/order/feignclient/UserFeignServiceFB.java" />
         <option value="$PROJECT_DIR$/sp04-orderservice/src/main/java/com/tedu/sp04/order/service/OrderServiceImpl.java" />
         <option value="$PROJECT_DIR$/sp09-feign/pom.xml" />
-        <option value="$PROJECT_DIR$/sp04-orderservice/pom.xml" />
         <option value="$PROJECT_DIR$/turbine/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/turbine/pom.xml" />
         <option value="$PROJECT_DIR$/turbine/src/main/java/com/tedu/turbine/TurbineApplication.java" />
         <option value="$PROJECT_DIR$/sp11-zuul/src/main/java/com/tedu/sp11zuul/Sp11ZuulApplication.java" />
-        <option value="$PROJECT_DIR$/sp11-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/sp11-zuul/src/main/java/com/tedu/sp11zuul/ItemServiceFallback.java" />
         <option value="$PROJECT_DIR$/sp11-zuul/src/main/java/com/tedu/sp11zuul/OrderServiceFallback.java" />
         <option value="$PROJECT_DIR$/sp10-turbine/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/sp11-zuul/src/main/java/com/tedu/sp11zuul/filter/AccessFilter.java" />
         <option value="$PROJECT_DIR$/sp11-zuul/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sp01-commons/src/main/java/com/tedu/sp01/pojo/Item.java" />
+        <option value="$PROJECT_DIR$/helloworld.html" />
+        <option value="$PROJECT_DIR$/configcenter/pom.xml" />
+        <option value="$PROJECT_DIR$/configcenter/src/main/java/com/tedu/configcenter/ConfigcenterApplication.java" />
+        <option value="$PROJECT_DIR$/sp02-itemservice/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/sp02-itemservice/pom.xml" />
+        <option value="$PROJECT_DIR$/sp04-orderservice/pom.xml" />
+        <option value="$PROJECT_DIR$/sp11-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/sp03-userservice/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/sp04-orderservice/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/sp11-zuul/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/configcenter/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sp03-userservice/pom.xml" />
+        <option value="$PROJECT_DIR$/sp03-userservice/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -242,12 +257,89 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-cloud-repo-springcloud11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-repo-springcloud11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-repo-springcloud11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-repo-springcloud11" type="462c0819:PsiDirectoryNode" />
+              <item name="sp02-itemservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-repo-springcloud11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-repo-springcloud11" type="462c0819:PsiDirectoryNode" />
+              <item name="sp03-userservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-repo-springcloud11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-repo-springcloud11" type="462c0819:PsiDirectoryNode" />
+              <item name="sp03-userservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-repo-springcloud11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-repo-springcloud11" type="462c0819:PsiDirectoryNode" />
+              <item name="sp03-userservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-repo-springcloud11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-repo-springcloud11" type="462c0819:PsiDirectoryNode" />
+              <item name="sp03-userservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-repo-springcloud11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-repo-springcloud11" type="462c0819:PsiDirectoryNode" />
+              <item name="sp04-orderservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-repo-springcloud11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-repo-springcloud11" type="462c0819:PsiDirectoryNode" />
+              <item name="sp04-orderservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-repo-springcloud11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-repo-springcloud11" type="462c0819:PsiDirectoryNode" />
+              <item name="sp04-orderservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-repo-springcloud11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-repo-springcloud11" type="462c0819:PsiDirectoryNode" />
+              <item name="sp04-orderservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-repo-springcloud11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-repo-springcloud11" type="462c0819:PsiDirectoryNode" />
+              <item name="sp04-orderservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -256,28 +348,34 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sp11-zuul/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\79155\IdeaProjects\spring-cloud-repo-springcloud11\configurationcenter" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.tedu.sp07hystrix" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\79155\IdeaProjects\spring-cloud-repo-springcloud11\sp07-hystrix" />
-      <recent name="C:\Users\79155\IdeaProjects\spring-cloud-repo-springcloud11" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.tedu.sp04.order.feignclient" />
       <recent name="com.tedu.sp04.order.service" />
       <recent name="com.tedu.sp09feign.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\79155\IdeaProjects\spring-cloud-repo-springcloud11\sp11-zuul\src\main\resources" />
+      <recent name="C:\Users\79155\IdeaProjects\spring-cloud-repo-springcloud11\sp04-orderservice\src\main\resources" />
+      <recent name="C:\Users\79155\IdeaProjects\spring-cloud-repo-springcloud11\sp03-userservice\src\main\resources" />
+      <recent name="C:\Users\79155\IdeaProjects\spring-cloud-repo-springcloud11\configurationcenter" />
+      <recent name="C:\Users\79155\IdeaProjects\spring-cloud-repo-springcloud11\sp02-itemservice\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -296,9 +394,16 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.35961872" />
+    <option name="contentProportion" value="0.22753988" />
   </component>
-  <component name="RunManager" selected="Spring Boot.Sp11ZuulApplication">
+  <component name="RunManager" selected="Spring Boot.ConfigcenterApplication">
+    <configuration name="ConfigcenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="configcenter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tedu.configcenter.ConfigcenterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Sp02-itemservice1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="sp02-itemservice" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tedu.sp02.Sp02ItemserviceApplication" />
@@ -434,12 +539,13 @@
       <item itemvalue="Spring Boot.Sp05-eureka1" />
       <item itemvalue="Spring Boot.Sp08DashboardApplication" />
       <item itemvalue="Spring Boot.sp04-orderservice2" />
+      <item itemvalue="Spring Boot.TurbineApplication" />
+      <item itemvalue="Spring Boot.Sp11ZuulApplication" />
       <item itemvalue="Spring Boot.Sp07HystrixApplication" />
       <item itemvalue="Spring Boot.Sp04-orderservice1" />
       <item itemvalue="Spring Boot.Sp03UserserviceApplication" />
       <item itemvalue="Spring Boot.Sp09FeignApplication" />
-      <item itemvalue="Spring Boot.TurbineApplication" />
-      <item itemvalue="Spring Boot.Sp11ZuulApplication" />
+      <item itemvalue="Spring Boot.ConfigcenterApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -463,7 +569,8 @@
       <workItem from="1561547286928" duration="896000" />
       <workItem from="1561552787578" duration="11905000" />
       <workItem from="1561588369203" duration="2505000" />
-      <workItem from="1561590949212" duration="24035000" />
+      <workItem from="1561590949212" duration="25251000" />
+      <workItem from="1561685049964" duration="12916000" />
     </task>
     <task id="LOCAL-00001" summary="try try again">
       <created>1561631416522</created>
@@ -472,16 +579,66 @@
       <option name="project" value="LOCAL" />
       <updated>1561631416522</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="try try again">
+      <created>1561631512734</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1561631512734</updated>
+    </task>
+    <task id="LOCAL-00003" summary="try try again">
+      <created>1561685624977</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1561685624977</updated>
+    </task>
+    <task id="LOCAL-00004" summary="try try again">
+      <created>1561689131027</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1561689131027</updated>
+    </task>
+    <task id="LOCAL-00005" summary="try try again">
+      <created>1561689765426</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1561689765426</updated>
+    </task>
+    <task id="LOCAL-00006" summary="config">
+      <created>1561691947035</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1561691947035</updated>
+    </task>
+    <task id="LOCAL-00007" summary="config">
+      <created>1561693016089</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1561693016089</updated>
+    </task>
+    <task id="LOCAL-00008" summary="config">
+      <created>1561704381766</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1561704381766</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39341000" />
+    <option name="totallyTimeSpent" value="53473000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34311327" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34311327" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -500,12 +657,12 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.29421353" side_tool="true" weight="0.33471075" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.37245312" side_tool="true" weight="0.8303965" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="13" visible="true" weight="0.32819384" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.62754685" weight="0.41189426" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.70578647" weight="0.6942149" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.70578647" visible="true" weight="0.25770926" />
       <window_info anchor="bottom" id="Messages" order="16" weight="0.336887" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -529,123 +686,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="try try again" />
-    <option name="LAST_COMMIT_MESSAGE" value="try try again" />
+    <MESSAGE value="config" />
+    <option name="LAST_COMMIT_MESSAGE" value="config" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sp09-feign/src/main/java/com/tedu/sp09feign/service/UserFeignService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp09-feign/src/main/java/com/tedu/sp09feign/service/UserFeignServiceFB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp09-feign/src/main/java/com/tedu/sp09feign/service/OrderFeignService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp09-feign/src/main/java/com/tedu/sp09feign/service/OrderFeignServiceFB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp09-feign/src/main/java/com/tedu/sp09feign/service/ItemFeignServiceFB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.1.1.RELEASE/spring-cloud-openfeign-core-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/openfeign/EnableFeignClients.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp03-userservice/src/main/java/com/tedu/sp03/user/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp02-itemservice/src/main/java/com/tedu/sp02/Sp02ItemserviceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.1.RELEASE/spring-cloud-commons-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/client/discovery/EnableDiscoveryClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp06-ribbon/src/main/java/com/tedu/sp07hystrix/sp06/Sp06RibbonApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp05-eureka/src/main/java/com/tedu/sp05/Sp05EurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp03-userservice/src/main/java/com/tedu/sp03/user/service/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-65">
-          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp07-hystrix/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sp07-hystrix/src/main/java/com/tedu/sp07hystrix/Sp07HystrixApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -661,13 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp03-userservice/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -804,20 +841,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sp09-feign/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-430">
-          <caret line="51" column="60" selection-start-line="51" selection-start-column="60" selection-end-line="51" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp04-orderservice/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="38" column="66" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sp04-orderservice/src/main/java/com/tedu/sp04/Sp04OrderserviceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -891,107 +914,203 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sp02-itemservice/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp11-zuul/src/main/java/com/tedu/sp11zuul/OrderServiceFallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1209">
-          <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="method#getRawStatusCode#0;class#422:1212" expanded="true" />
-            <element signature="method#getStatusText#0;class#422:1212" expanded="true" />
-            <element signature="method#close#0;class#422:1212" expanded="true" />
-            <element signature="method#getBody#0;class#422:1212" expanded="true" />
-            <element signature="method#getHeaders#0;class#422:1212" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-zuul/2.1.1.RELEASE/spring-cloud-starter-netflix-zuul-2.1.1.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-600" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sp11-zuul/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp09-feign/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="37" selection-start-line="37" selection-end-line="41" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp10-turbine/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp02-itemservice/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp11-zuul/src/main/java/com/tedu/sp11zuul/filter/AccessFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#shouldFilter#0;class#AccessFilter#0" expanded="true" />
-            <element signature="method#run#0;class#AccessFilter#0" expanded="true" />
-            <element signature="e#991#992#0" expanded="true" />
-            <element signature="e#1029#1030#0" expanded="true" />
-            <element signature="method#filterOrder#0;class#AccessFilter#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sp11-zuul/src/main/java/com/tedu/sp11zuul/ItemServiceFallback.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        <state relative-caret-position="325">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
           <folding>
             <element signature="method#getRoute#0;class#ItemServiceFallback#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
             <element signature="method#response#0;class#ItemServiceFallback#0" expanded="true" />
-            <element signature="method#getRawStatusCode#0;class#655:1462" expanded="true" />
-            <element signature="method#getStatusText#0;class#655:1462" expanded="true" />
-            <element signature="method#close#0;class#655:1462" expanded="true" />
-            <element signature="method#getBody#0;class#655:1462" expanded="true" />
-            <element signature="method#getHeaders#0;class#655:1462" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/io/InputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
+        <state relative-caret-position="575">
           <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp09-feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="37" selection-start-line="37" selection-end-line="41" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp11-zuul/src/main/java/com/tedu/sp11zuul/OrderServiceFallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp10-turbine/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp02-itemservice/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp11-zuul/src/main/java/com/tedu/sp11zuul/filter/AccessFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#shouldFilter#0;class#AccessFilter#0" expanded="true" />
+            <element signature="method#run#0;class#AccessFilter#0" expanded="true" />
+            <element signature="method#filterOrder#0;class#AccessFilter#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sp11-zuul/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        <state relative-caret-position="262">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp09-feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="51" column="60" selection-start-line="51" selection-start-column="60" selection-end-line="51" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/reflect/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="702" column="25" selection-start-line="702" selection-start-column="25" selection-end-line="702" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp01-commons/src/main/java/com/tedu/sp01/pojo/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configurationcenter/zuul-service-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configurationcenter/item-service-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helloworld.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configcenter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configcenter/src/main/java/com/tedu/configcenter/ConfigcenterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp02-itemservice/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp02-itemservice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="49" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp04-orderservice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp11-zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp03-userservice/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp04-orderservice/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp11-zuul/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configcenter/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp03-userservice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp03-userservice/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
         </state>
       </provider>
     </entry>
