@@ -13,6 +13,7 @@ spring:
         git:
           uri: https://github.com/wanjianwanjian/spring-cloud-repo-springcloud11
           searchPaths: configurationcenter
+
           #username: your-username
           #password: your-password
 
