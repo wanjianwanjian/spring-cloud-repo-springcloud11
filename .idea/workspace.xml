@@ -2,25 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89b06571-1a13-454a-befd-609627c9bf13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsonSchemas.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_1_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_54.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jzlib_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_5_1_3_201810200350_r.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_http_apache_5_1_3_201810200350_r.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_2_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_shaded_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_minlog_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_http_client_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_bus_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_function_context_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_function_core_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_bus_amqp_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_stream_rabbit_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_rabbit_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_rabbit_core_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_amqp_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_core_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_jmx_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_tuple_1_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tuple_1_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp02-itemservice/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp03-userservice/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp04-orderservice/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp11-zuul/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp12-configcenter/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp12-configcenter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp12-configcenter/src/main/java/com/tedu/configcenter/ConfigcenterApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp12-configcenter/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp12-configcenter/src/test/java/com/tedu/configcenter/ConfigcenterApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sp01-commons/src/main/java/com/tedu/sp01/pojo/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/sp01-commons/src/main/java/com/tedu/sp01/pojo/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sp02-itemservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sp02-itemservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp02-itemservice/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sp02-itemservice/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sp03-userservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sp03-userservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp03-userservice/src/main/java/com/tedu/sp03/user/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sp03-userservice/src/main/java/com/tedu/sp03/user/service/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sp03-userservice/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sp03-userservice/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sp04-orderservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sp04-orderservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp04-orderservice/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sp04-orderservice/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sp11-zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sp11-zuul/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/sp01-commons/target/" />
@@ -35,6 +61,7 @@
     <ignored path="$PROJECT_DIR$/turbine/target/" />
     <ignored path="$PROJECT_DIR$/sp11-zuul/target/" />
     <ignored path="$PROJECT_DIR$/configcenter/target/" />
+    <ignored path="$PROJECT_DIR$/sp12-configcenter/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,64 +74,82 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/configcenter/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/sp03-userservice/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4">
-              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+            <state relative-caret-position="171">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sp02-itemservice/src/main/resources/bootstrap.yml">
+        <entry file="file://$PROJECT_DIR$/sp04-orderservice/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
+            <state relative-caret-position="175">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configurationcenter/item-service-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configurationcenter/order-service-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configurationcenter/user-service-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configurationcenter/zuul-service-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sp03-userservice/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/sp03-userservice/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+            <state relative-caret-position="1">
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sp11-zuul/pom.xml">
+        <entry file="file://$PROJECT_DIR$/sp02-itemservice/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+            <state relative-caret-position="200">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sp03-userservice/src/main/resources/bootstrap.yml">
+        <entry file="file://$PROJECT_DIR$/sp12-configcenter/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sp04-orderservice/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sp11-zuul/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            <state relative-caret-position="200">
+              <caret line="42" column="53" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -112,26 +157,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sp02-itemservice/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="49" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sp03-userservice/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sp04-orderservice/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+            <state relative-caret-position="269">
+              <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -173,26 +200,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sp07-hystrix/src/main/java/com/tedu/sp06/consoller/RibbonController.java" />
-        <option value="$PROJECT_DIR$/sp06-ribbon/pom.xml" />
-        <option value="$PROJECT_DIR$/sp08-dashboard/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/sp07-hystrix/pom.xml" />
-        <option value="$PROJECT_DIR$/sp07-hystrix/src/main/java/com/tedu/sp07hystrix/Sp07HystrixApplication.java" />
-        <option value="$PROJECT_DIR$/sp07-hystrix/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/sp09-feign/src/main/java/com/tedu/sp09feign/service/UserFeignService.java" />
         <option value="$PROJECT_DIR$/sp09-feign/src/main/java/com/tedu/sp09feign/service/OrderFeignService.java" />
         <option value="$PROJECT_DIR$/sp09-feign/src/main/java/com/tedu/sp09feign/service/ItemFeignService.java" />
         <option value="$PROJECT_DIR$/sp09-feign/src/main/java/com/tedu/sp09feign/service/ItemFeignServiceFB.java" />
         <option value="$PROJECT_DIR$/sp09-feign/src/main/java/com/tedu/sp09feign/service/OrderFeignServiceFB.java" />
         <option value="$PROJECT_DIR$/sp09-feign/src/main/java/com/tedu/sp09feign/service/UserFeignServiceFB.java" />
         <option value="$PROJECT_DIR$/sp09-feign/src/main/java/com/tedu/sp09feign/feigncontroller/FeignController.java" />
-        <option value="$PROJECT_DIR$/sp03-userservice/src/main/java/com/tedu/sp03/user/service/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/sp03-userservice/src/main/java/com/tedu/sp03/Sp03UserserviceApplication.java" />
         <option value="$PROJECT_DIR$/sp08-dashboard/src/main/java/com/tedu/sp08dashboard/Sp08DashboardApplication.java" />
         <option value="$PROJECT_DIR$/sp08-dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/sp09-feign/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/sp09-feign/src/main/java/com/tedu/sp09feign/Sp09FeignApplication.java" />
-        <option value="$PROJECT_DIR$/sp04-orderservice/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/sp04-orderservice/src/main/java/com/tedu/sp04/Sp04OrderserviceApplication.java" />
         <option value="$PROJECT_DIR$/sp04-orderservice/src/main/java/com/tedu/sp04/order/service/ItemFeignService.java" />
         <option value="$PROJECT_DIR$/sp04-orderservice/src/main/java/com/tedu/sp04/order/service/ItemFeignServiceFB.java" />
@@ -215,15 +233,24 @@
         <option value="$PROJECT_DIR$/configcenter/pom.xml" />
         <option value="$PROJECT_DIR$/configcenter/src/main/java/com/tedu/configcenter/ConfigcenterApplication.java" />
         <option value="$PROJECT_DIR$/sp02-itemservice/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/sp02-itemservice/pom.xml" />
-        <option value="$PROJECT_DIR$/sp04-orderservice/pom.xml" />
-        <option value="$PROJECT_DIR$/sp11-zuul/pom.xml" />
-        <option value="$PROJECT_DIR$/sp03-userservice/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/sp04-orderservice/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/sp11-zuul/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/configcenter/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sp03-userservice/src/main/java/com/tedu/sp03/user/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/sp03-userservice/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/sp02-itemservice/pom.xml" />
         <option value="$PROJECT_DIR$/sp03-userservice/pom.xml" />
+        <option value="$PROJECT_DIR$/sp04-orderservice/pom.xml" />
+        <option value="$PROJECT_DIR$/sp11-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/sp12-configcenter/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sp02-itemservice/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/sp03-userservice/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sp04-orderservice/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/configurationcenter/item-service-dev.yml" />
+        <option value="$PROJECT_DIR$/configurationcenter/order-service-dev.yml" />
+        <option value="$PROJECT_DIR$/configurationcenter/user-service-dev.yml" />
+        <option value="$PROJECT_DIR$/configurationcenter/zuul-service-dev.yml" />
+        <option value="$PROJECT_DIR$/sp12-configcenter/pom.xml" />
       </list>
     </option>
   </component>
@@ -245,6 +272,12 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-12" />
     <option name="y" value="9" />
@@ -257,6 +290,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -267,11 +301,6 @@
             <path>
               <item name="spring-cloud-repo-springcloud11" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-repo-springcloud11" type="462c0819:PsiDirectoryNode" />
-              <item name="sp02-itemservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-repo-springcloud11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-repo-springcloud11" type="462c0819:PsiDirectoryNode" />
               <item name="sp03-userservice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -291,6 +320,62 @@
               <item name="spring-cloud-repo-springcloud11" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-repo-springcloud11" type="462c0819:PsiDirectoryNode" />
               <item name="sp03-userservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-repo-springcloud11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-repo-springcloud11" type="462c0819:PsiDirectoryNode" />
+              <item name="sp03-userservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-repo-springcloud11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-repo-springcloud11" type="462c0819:PsiDirectoryNode" />
+              <item name="sp03-userservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tedu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-repo-springcloud11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-repo-springcloud11" type="462c0819:PsiDirectoryNode" />
+              <item name="sp03-userservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tedu" type="462c0819:PsiDirectoryNode" />
+              <item name="sp03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-repo-springcloud11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-repo-springcloud11" type="462c0819:PsiDirectoryNode" />
+              <item name="sp04-orderservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-repo-springcloud11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-repo-springcloud11" type="462c0819:PsiDirectoryNode" />
+              <item name="sp04-orderservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-repo-springcloud11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-repo-springcloud11" type="462c0819:PsiDirectoryNode" />
+              <item name="sp04-orderservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-repo-springcloud11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-repo-springcloud11" type="462c0819:PsiDirectoryNode" />
+              <item name="sp04-orderservice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -298,43 +383,17 @@
             <path>
               <item name="spring-cloud-repo-springcloud11" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-repo-springcloud11" type="462c0819:PsiDirectoryNode" />
-              <item name="sp04-orderservice" type="462c0819:PsiDirectoryNode" />
+              <item name="sp11-zuul" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-repo-springcloud11" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-repo-springcloud11" type="462c0819:PsiDirectoryNode" />
-              <item name="sp04-orderservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-repo-springcloud11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-repo-springcloud11" type="462c0819:PsiDirectoryNode" />
-              <item name="sp04-orderservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-repo-springcloud11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-repo-springcloud11" type="462c0819:PsiDirectoryNode" />
-              <item name="sp04-orderservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-repo-springcloud11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-repo-springcloud11" type="462c0819:PsiDirectoryNode" />
-              <item name="sp04-orderservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sp12-configcenter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -348,14 +407,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sp11-zuul/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../thymeleaf" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="spring" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -396,14 +455,7 @@
     </option>
     <option name="contentProportion" value="0.22753988" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigcenterApplication">
-    <configuration name="ConfigcenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="configcenter" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tedu.configcenter.ConfigcenterApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.sp12-onfigcenter">
     <configuration name="Sp02-itemservice1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="sp02-itemservice" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tedu.sp02.Sp02ItemserviceApplication" />
@@ -531,6 +583,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="sp12-onfigcenter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="sp12-configcenter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tedu.configcenter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tedu.configcenter.ConfigcenterApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.Sp02-itemservice1" />
       <item itemvalue="Spring Boot.sp02-itemservice2" />
@@ -545,13 +611,14 @@
       <item itemvalue="Spring Boot.Sp04-orderservice1" />
       <item itemvalue="Spring Boot.Sp03UserserviceApplication" />
       <item itemvalue="Spring Boot.Sp09FeignApplication" />
-      <item itemvalue="Spring Boot.ConfigcenterApplication" />
+      <item itemvalue="Spring Boot.sp12-onfigcenter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.sp12-onfigcenter" />
+        <item itemvalue="Spring Boot.Sp03UserserviceApplication" />
         <item itemvalue="Spring Boot.Sp04-orderservice1" />
         <item itemvalue="Spring Boot.Sp09FeignApplication" />
-        <item itemvalue="Spring Boot.Sp03UserserviceApplication" />
         <item itemvalue="Spring Boot.Sp07HystrixApplication" />
       </list>
     </recent_temporary>
@@ -570,7 +637,11 @@
       <workItem from="1561552787578" duration="11905000" />
       <workItem from="1561588369203" duration="2505000" />
       <workItem from="1561590949212" duration="25251000" />
-      <workItem from="1561685049964" duration="12916000" />
+      <workItem from="1561685049964" duration="17570000" />
+      <workItem from="1561711536660" duration="1664000" />
+      <workItem from="1561734006042" duration="1287000" />
+      <workItem from="1561765792037" duration="807000" />
+      <workItem from="1561943070157" duration="2749000" />
     </task>
     <task id="LOCAL-00001" summary="try try again">
       <created>1561631416522</created>
@@ -628,17 +699,30 @@
       <option name="project" value="LOCAL" />
       <updated>1561704381766</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="refresh">
+      <created>1561705565270</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1561705565270</updated>
+    </task>
+    <task id="LOCAL-00010" summary="bus">
+      <created>1561945317568</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1561945317568</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53473000" />
+    <option name="totallyTimeSpent" value="64634000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34311327" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36919317" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -662,12 +746,12 @@
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.62754685" weight="0.41189426" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.70578647" visible="true" weight="0.25770926" />
-      <window_info anchor="bottom" id="Messages" order="16" weight="0.336887" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.70578647" visible="true" weight="0.23966943" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.36784142" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.43765283" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.26405868" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Cargo" order="5" />
       <window_info anchor="right" id="Snyk" order="6" side_tool="true" />
@@ -687,41 +771,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="try try again" />
     <MESSAGE value="config" />
-    <option name="LAST_COMMIT_MESSAGE" value="config" />
+    <MESSAGE value="refresh" />
+    <MESSAGE value="bus" />
+    <option name="LAST_COMMIT_MESSAGE" value="bus" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sp07-hystrix/src/main/java/com/tedu/sp07hystrix/Sp07HystrixApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-          <folding>
-            <element signature="method#getRestTemplate#0;class#Sp07HystrixApplication#0" expanded="true" />
-            <element signature="method#main#0;class#Sp07HystrixApplication#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-hystrix-dashboard/2.1.1.RELEASE/spring-cloud-netflix-hystrix-dashboard-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/hystrix/dashboard/EnableHystrixDashboard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp03-userservice/src/main/java/com/tedu/sp03/Sp03UserserviceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp05-eureka/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sp09-feign/src/main/java/com/tedu/sp09feign/service/ItemFeignService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -862,13 +916,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sp10-turbine/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sp10-turbine/src/main/java/com/tedu/turbine/TurbineApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -876,20 +923,6 @@
           <folding>
             <element signature="method#main#0;class#TurbineApplication#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp11-zuul/src/main/java/com/tedu/sp11zuul/Sp11ZuulApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp04-orderservice/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -961,9 +994,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sp02-itemservice/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/sp11-zuul/src/main/java/com/tedu/sp11zuul/filter/AccessFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -1005,42 +1035,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configurationcenter/zuul-service-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configurationcenter/item-service-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/helloworld.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
           <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configcenter/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configcenter/src/main/java/com/tedu/configcenter/ConfigcenterApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1051,34 +1049,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sp02-itemservice/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="49" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp04-orderservice/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp11-zuul/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp03-userservice/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sp04-orderservice/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1086,31 +1056,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sp11-zuul/src/main/resources/bootstrap.yml">
+    <entry file="file://$PROJECT_DIR$/sp03-userservice/src/main/java/com/tedu/sp03/Sp03UserserviceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp10-turbine/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp03-userservice/src/main/java/com/tedu/sp03/user/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp03-userservice/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp11-zuul/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
           <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configcenter/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/sp12-configcenter/src/main/java/com/tedu/configcenter/ConfigcenterApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        <state relative-caret-position="250">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sp03-userservice/pom.xml">
+    <entry file="file://$PROJECT_DIR$/sp11-zuul/src/main/java/com/tedu/sp11zuul/Sp11ZuulApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        <state relative-caret-position="300">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp04-orderservice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp11-zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp12-configcenter/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp02-itemservice/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sp03-userservice/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        <state relative-caret-position="171">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp04-orderservice/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configurationcenter/item-service-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configurationcenter/order-service-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configurationcenter/user-service-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configurationcenter/zuul-service-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp12-configcenter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="42" column="53" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp02-itemservice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp03-userservice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1164,7 +1246,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>sp09-feign</last-edited>
+          <last-edited>configcenter</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

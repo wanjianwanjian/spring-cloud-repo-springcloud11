@@ -3,6 +3,7 @@ package com.tedu.sp03.user.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.stereotype.Service;
 
 import com.fasterxml.jackson.core.type.TypeReference;
@@ -14,6 +15,8 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
+@RefreshScope  //只有添加了这个注解的实例才会将刷新的数据重新注入，
+// 否则spring框架自己判断成本太高
 public class UserServiceImpl implements UserService {
 	// Error creating bean with name 'userServiceImpl':
 	// Injection of autowired dependencies failed
