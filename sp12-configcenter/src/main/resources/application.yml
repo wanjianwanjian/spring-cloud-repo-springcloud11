@@ -2,28 +2,40 @@ spring:
   application:
     name: config-server
   rabbitmq:
-    host: 192.168.64.140
+    host: 192.168.72.133
     port: 5672
     username: admin
     password: admin
 
+  profiles:
+    active: native
+  
   cloud:
     config:
       server:
-        git:
-          uri: https://github.com/wanjianwanjian/spring-cloud-repo-springcloud11
-          searchPaths: configurationcenter
+        native:
+          search-locations: classpath:/config
 
-          #username: your-username
-          #password: your-password
+#        git:
+#          uri: https://github.com/你的用户路径/sp-config
+#          searchPaths: config
+#          username: your-username
+#          password: your-password
+        
+    
 
+
+    
 server:
   port: 6001
-
+    
 eureka:
   client:
     service-url:
       defaultZone: http://eureka1:2001/eureka, http://eureka2:2002/eureka
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${spring.application.name}:${server.port}
 
 management:
   endpoints:

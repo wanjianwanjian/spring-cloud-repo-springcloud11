@@ -1,5 +1,9 @@
 spring:
   cloud:
+    inetutils:
+      ignored-interfaces:
+        -VM.*
+#      preferred-networks: -192.168.72
     config:
       discovery:
         enabled: true

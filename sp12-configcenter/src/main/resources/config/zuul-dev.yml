@@ -1,33 +1,38 @@
+
 spring:
   application:
     name: zuul
+  rabbitmq:
+    host: 192.168.72.133
+    port: 5672
+    username: admin
+    password: admin
 
+    
 server:
   port: 3001
-
+  
 eureka:
-#  instance:
-#    prefer-ip-address: true
-#    instance-id: ${spring.cloud.client.ip-address}:${spring.application.name}:${server.port}
   client:
     service-url:
       defaultZone: http://eureka1:2001/eureka, http://eureka2:2002/eureka
 
-
-#下面的路径也可以不配置，因为可以从注册中心获取相关的服务信息
 zuul:
-  routes:
-    item-service: /item-service/**
-    user-service: /user-service/**
-    order-service: /order-service/**
-  retryable: true #开启重试
+  retryable: true
 
+#zuul:
+#  routes:
+#    item-service: /item-service/**
+#    user-service: /user-service/**
+#    order-service: /order-service/**
+    
 ribbon:
   ConnectTimeout: 1000
   ReadTimeout: 1000
   MaxAutoRetriesNextServer: 1
   MaxAutoRetries: 1
-
+  
+  
 hystrix:
   command:
     default:
@@ -35,9 +40,14 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 500
-
+            
 management:
   endpoints:
     web:
       exposure:
         include: hystrix.stream
+            
+            
+  
+  
+  
